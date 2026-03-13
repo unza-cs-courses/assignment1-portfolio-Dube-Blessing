@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Professional portfolio website for [Your Name]">
-    <title>Portfolio - [Your Name]</title>
+    <title>Portfolio - Blessing Dube</title>
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -33,14 +33,24 @@
                  - Active state indication
             -->
             <div class="nav__logo">
-                <a href="#home">[Your Name]</a>
+                <a href="#home">Blessing Dube</a>
             </div>
-            <ul class="nav__menu">
+
+            <div class="nav__toggle" id="navToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+
+
+            <ul class="nav__menu" id="navMenu">
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#projects">Projects</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
+
+            
         </nav>
     </header>
 
@@ -55,10 +65,10 @@
                  - Consider using Flexbox for layout
             -->
             <div class="hero__content">
-                <h1>Your Name</h1>
+                <h1>Blessing Dube</h1>
                 <p class="hero__tagline">
                     <!-- TODO: Add your professional tagline -->
-                    Web Developer | Designer | Problem Solver
+                    Web Developer | Designer | Builder of Smart Digital Solutions.
                 </p>
                 <a href="#contact" class="btn btn--primary">Get In Touch</a>
             </div>
@@ -79,7 +89,7 @@
                 <div class="about__content">
                     <div class="about__image">
                         <!-- TODO: Add your profile image -->
-                        <img src="images/profile-placeholder.jpg" alt="Profile photo of [Your Name]">
+                        <img src="122598000.jpg" alt="Profile photo of Blessing">
                     </div>
                     <div class="about__text">
                         <p>
@@ -90,9 +100,13 @@
                                  - Your goals
                                  - What makes you unique
                             -->
-                            [Your professional bio goes here. Write at least 150 words about yourself,
-                            your background, your passion for web development, and your goals.
-                            This is your opportunity to introduce yourself to potential employers or clients.]
+                            I am Blessing Dube, a Software Engineering student with a strong passion for building innovative digital solutions that solve real-world problems. 
+                            My journey into technology started with curiosity about how websites and applications work, which gradually developed into a deep interest in software development, system design, and web technologies. 
+                            I enjoy transforming ideas into functional systems through code, whether it’s building web applications, designing user-friendly interfaces, or developing scalable digital platforms.
+                            Alongside my academic journey, I am the founder of BrookBurst Marketing, a digital marketing company focused on helping businesses grow their online presence through strategic design, branding, and marketing solutions. 
+                            Through this venture, I have gained practical experience in graphic design, digital branding, and understanding how technology and marketing work together to drive business success.
+                            My interests include web development, software architecture, and building platforms that improve access to education and digital services. 
+                            I am constantly learning new technologies and improving my skills to become a well-rounded software engineer. My goal is to build impactful software products and contribute to innovative solutions that empower people, businesses, and communities in the digital world.
                         </p>
                         <h3>Skills</h3>
                         <ul class="skills-list">
@@ -101,6 +115,9 @@
                             <li>CSS3</li>
                             <li>JavaScript</li>
                             <li>Responsive Design</li>
+                            <li>Python</li>
+                            <li>WordPress development</li>
+                            <li>Digital Marketer</li>
                             <!-- Add more skills -->
                         </ul>
                     </div>
@@ -123,12 +140,11 @@
                     <!-- Project Card 1 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project1-placeholder.jpg" alt="Screenshot of Project 1">
+                        <img src="original-cd5efe3fbbc6fbf0dfe14de04c9657e4.webp" alt="Screenshot of Project 1" style="width: 100%; max-width: 500px; height: auto;">
                         <div class="project-card__content">
-                            <h3>Project Title 1</h3>
+                            <h3>Point of Sale System</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                I developed a Point of Sale (POS) system to help businesses manage sales transactions more efficiently. The system allows users to add products, calculate totals, and generate receipts during checkout. It was built using Python for the backend functionality, with HTML and CSS used to create the user interface. The system helps reduce manual errors and speeds up the sales process for small businesses.
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -140,12 +156,15 @@
                     <!-- Project Card 2 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project2-placeholder.jpg" alt="Screenshot of Project 2">
+                        <img src="original-be9468450c85c10694dbf5fe7e472477.webp" alt="Screenshot of Project 2" 
+                        style="width: 100%; max-width: 500px; height: auto;">
                         <div class="project-card__content">
-                            <h3>Project Title 2</h3>
+                            <h3>E-Learning System with Live Sessions</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                I developed an e-learning platform designed to help instructors deliver courses and students access learning materials online. 
+                                The platform allows users to create courses, upload resources, and manage learning activities in one place. 
+                                It was built using Python for the backend and HTML and CSS for the user interface. The system helps make education more accessible by allowing students to learn and interact with course content remotely.
+
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -157,12 +176,14 @@
                     <!-- Project Card 3 -->
                     <article class="project-card">
                         <!-- TODO: Replace with your project -->
-                        <img src="images/project3-placeholder.jpg" alt="Screenshot of Project 3">
+                        <img src="original-50811f6acea2de26f2270892be39d145.webp" alt="Screenshot of Project 3" 
+                        style="width: 100%; max-width: 500px; height: auto;">
                         <div class="project-card__content">
-                            <h3>Project Title 3</h3>
+                            <h3>Library Management System</h3>
                             <p>
-                                Brief description of your project. What technologies did you use?
-                                What problem does it solve?
+                                I developed a Library Management System to help manage books, students, and borrowing activities efficiently. The system allows users to add books, issue and return them, and keep track of available and borrowed items. 
+                                It was built using Python for the backend logic and HTML and CSS for the user interface. The system helps libraries organize their records and reduce manual work in managing books and transactions.
+
                             </p>
                             <div class="project-card__links">
                                 <a href="#" class="btn btn--small">Live Demo</a>
@@ -248,7 +269,7 @@
              - Back to top link (optional)
         -->
         <div class="container">
-            <p>&copy; 2025 [Your Name]. All rights reserved.</p>
+            <p>&copy; 2025 Blessing Dube. All rights reserved.</p>
             <nav class="footer__social">
                 <!-- TODO: Add your social media links -->
                 <a href="#" aria-label="GitHub">GitHub</a>
@@ -257,5 +278,15 @@
             </nav>
         </div>
     </footer>
+
+    <script>
+        const menuToggle = document.getElementById("navToggle");
+        const navMenu = document.getElementById("navMenu");
+
+        menuToggle.addEventListener("click", function () {
+            navMenu.classList.toggle("active");
+        });
+    </script>
+
 </body>
 </html>

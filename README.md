@@ -127,19 +127,19 @@ Before submitting, verify:
 
 ## Your Information
 
-**Name:** [Your Name]
-**Student ID:** [Your Student ID]
-**Design Theme:** [Describe your portfolio theme/style]
+**Name:** BLESSING DUBE
+**Student ID:** 2022025873
+**Design Theme:** A modern dark-themed portfolio using dark grey as the primary background color and orange as an accent color for highlights and interactive elements. It is also responsive to provide a professional user experience across devices.
 
 ### CSS Techniques Used
 - [ ] CSS Custom Properties
 - [ ] Flexbox
 - [ ] CSS Grid
 - [ ] Media Queries
-- [ ] Other: _______________
+- [ ] Other: JAVASCRIPT
 
 ### Challenges & Solutions
-[Describe any challenges you faced and how you solved them]
+Creating the Humberger menu, it took time and effort before i have no idea how to go about, but YouTube videos and research helped me solve the problem and managed to create it.
 
 ### Credits
 [List any images, fonts, or resources used with attribution]
